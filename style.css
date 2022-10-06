@@ -230,55 +230,11 @@ figcaption, .rating {
     color: #EB5428;
 }
 
-.main-icon {   
-    color: #000000;
-}
-
 .hamburger-icon {
     position: relative;
     width: 100%;
     top: 10px;
-    left: 65px;
-}
-
-[href="#home"] {
-      position: absolute;
-      top: 2px;
-      transform: translate(-50%, -50%);
-      cursor: default;
-}
-
-.icon-tabler-tools-kitchen {
-    background-color: #EB5428;
-    position: absolute;
-    top: 33px;
-    padding: 20px 80px;
-    left: 115px;
-    margin: 10px;
-}
-
-.avatar {
-    position: absolute;
-    top: 92px;
-    right: 25px;
-}
- 
-.icon-tabler-user-circle {
-    stroke: #EB5428;
-    position: absolute;
-    top: 50px;
-    right: 27px;
-}
-
-#main-nav a:hover, #main-nav input:hover{
-    background-color: #EB5428;
-    color: #FFFFFF;
-}
-
-
-#main-nav div {
-    margin-top: -50px;
-    margin-left: -50px;
+    left: 70px;
 }
 
 label {
@@ -292,8 +248,8 @@ label {
 #main-nav label span {
     display: block;
     position: relative;
-    left: 24px;
-    bottom: -65px;
+    left: 73px;
+    bottom: -80px;
     transition: background-color .2s ease-out;
 }
 
@@ -330,6 +286,44 @@ label {
     top: 0;
 }
 
+[href="#home"] {
+    position: absolute;
+    top: 2px;
+    transform: translate(-50%, -50%);
+    cursor: default;
+}
+
+.icon-tabler-tools-kitchen {
+  background-color: #EB5428;
+  position: absolute;
+  top: 33px;
+  padding: 20px 80px;
+  left: 115px;
+  margin: 10px;
+}
+
+.avatar {
+  position: absolute;
+  top: 92px;
+  right: 25px;
+}
+
+.icon-tabler-user-circle {
+  stroke: #EB5428;
+  position: absolute;
+  top: 50px;
+  right: 27px;
+}
+
+#main-nav a:hover, #main-nav input:hover{
+  background-color: #EB5428;
+  color: #FFFFFF;
+}
+
+#main-nav div {
+  margin-top: -50px;
+  margin-left: -50px;
+}
 
 /*Section for search bar*/
 .search-bar {
