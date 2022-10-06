@@ -194,8 +194,8 @@ figcaption, .rating {
 /*Section for main navigation*/
 #main-nav {
     width: 414px;
-    height: 113px;
-    margin-top: -20px;
+    height: 125px;
+    margin-top: -40px;
     background-color: #FFFFFF;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
     position: fixed;
@@ -230,25 +230,20 @@ figcaption, .rating {
     color: #EB5428;
 }
 
-#main-nav span {
-    margin-left: 45px;
-    margin-top: 7px;
-}
-
-.main-icon {
+.main-icon {   
     color: #000000;
 }
 
 .hamburger-icon {
     position: relative;
     width: 100%;
-    top: -5px;
+    top: 10px;
     left: 65px;
 }
 
 [href="#home"] {
       position: absolute;
-      top: 0px;
+      top: 2px;
       transform: translate(-50%, -50%);
       cursor: default;
 }
@@ -259,19 +254,20 @@ figcaption, .rating {
     top: 33px;
     padding: 20px 80px;
     left: 115px;
+    margin: 10px;
 }
 
 .avatar {
     position: absolute;
-    top: 75px;
-    right: 30px;
+    top: 92px;
+    right: 25px;
 }
  
 .icon-tabler-user-circle {
     stroke: #EB5428;
     position: absolute;
-    top: 40px;
-    right: 30px;
+    top: 50px;
+    right: 27px;
 }
 
 #main-nav a:hover, #main-nav input:hover{
