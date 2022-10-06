@@ -237,6 +237,13 @@ figcaption, .rating {
     left: 70px;
 }
 
+.hamburger-icon:hover {
+    border: 3px solid #000000;
+    border-radius: 50%;
+    width: 41px;
+    height: 50px;
+}
+
 label {
     cursor: pointer;
     display: inline-block;
@@ -276,12 +283,7 @@ label {
 #main-nav input:checked ~ label span {
     background: transparent;
 }
-#main-nav input:checked ~ label span:before {
-    transform: rotate(-45deg);
-}
-#main-nav input:checked ~ label span:after {
-    transform: rotate(45deg);
-}
+
 #main-nav input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps) span:after {
     top: 0;
 }
