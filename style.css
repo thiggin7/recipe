@@ -107,6 +107,7 @@ dl {
 
 dt {
     margin-right: -20px;
+    font-weight: 700;
 }
 
 dd {
@@ -120,7 +121,11 @@ dd {
 
 ol {
     margin-right: 20px;
-line-height: 1.5;
+    line-height: 1.5;
+}
+
+li {
+    cursor: pointer;
 }
 
 #directions ol li:not(:last-child) {
@@ -245,6 +250,7 @@ figcaption, .rating {
       position: absolute;
       top: 0px;
       transform: translate(-50%, -50%);
+      cursor: default;
 }
 
 .icon-tabler-tools-kitchen {
@@ -351,6 +357,7 @@ label {
 button {
     background-color: #EB5428;
     border-style: none;
+    cursor: pointer;
 }
 
 .icon-tabler-search {
