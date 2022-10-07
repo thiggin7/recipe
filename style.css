@@ -477,11 +477,6 @@ footer img {
         padding: 35px 15px 20px 15px;
     }
 
-    .hover-menu:hover {
-        color: #FFFFFF;
-        background-color: #EB5428;
-    }
-
     /*Section for recipe*/
     #recipe-content {
         display: grid;
@@ -581,12 +576,30 @@ aside figcaption {
     height: 255px;
 }
 
+#main-nav li {
+    width: 115px;
+}
+
+#main-nav a {
+    width: 70px;
+}
+
 .hamburger-icon {
     display: none;
 }
 
 #main-nav label, #dropdown{
     visibility: hidden;
+}
+
+[href="#home"] {
+    left: -70px;
+}
+
+.icon-tabler-tools-kitchen {
+  background-color: #EB5428;
+  position: absolute;
+  padding: 28px 13px;
 }
 
 #main-nav img {
@@ -597,37 +610,21 @@ aside figcaption {
     list-style: none;
     overflow: visible;
     display: flex;
+    align-items: center;
     justify-content: center;
-    margin-top: 15px;
-    left: 50%;
-    right: 50%;
+    margin-top: 87px;
 }
 
 .nav-text {
     position: relative;
-    top: 70px;
-}
-
-[href="#home"] {
-    position: absolute;
-    top: 2px;
-    left: -105px;
-    cursor: default;
-}
-
-.icon-tabler-tools-kitchen {
-  background-color: #EB5428;
-  position: absolute;
-  top: 33px;
-  padding: 20px 8px;
-  margin: 10px;
+    top: 55px;
 }
 
 .breakfast, .brunch, .lunch, .dinner, .appetizers, .desserts, .beverages {
     visibility: visible;
     display: flex;
     position: relative;
-    top: -10px;
+    top: -30px;
     left: 15%;
 }
 
