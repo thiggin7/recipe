@@ -765,6 +765,9 @@ footer img {
         margin-top: -390px;
     }
 
+    .icon-tabler-download, .icon-tabler-share, .icon-tabler-printer, .icon-tabler-file-symlink {
+        margin-left: 240px;
+    }
 
     /*Section for recipe*/
     .street-tacos {
