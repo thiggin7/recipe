@@ -134,33 +134,43 @@ aside {
     padding-bottom: 35px;
 }
 
-aside figure {
-    margin-bottom: 15px;
-}
 aside h2 {
     padding-top: 5px;
     margin-bottom: -50px;
     text-align: center;
 }
 
+aside figure {
+    margin-bottom: 15px;
+}
+
+.rating {
+    margin-top: 34px;
+    margin-left: 95px;
+}
+
+.dish-style {
+    position: relative;
+    left: 95px;
+    top: 55px;
+}
+
 aside img {
+    position: absolute;
     width: 100px;
-    float: left;
-    margin-left: -15px;
+    margin-left: -25px;
 }
 
-
-aside figcaption, aside p, aside svg {
+aside svg {
     position: relative;
-    top: 40px;
-    left: 30px;
-    line-height: 0.4;
+    top: 30px;
+    left: -60px;
 }
 
-aside h3 {
+aside figcaption {
     position: relative;
-    left: 30px;
-    top: 50px;
+    top: 35px;
+    left: 95px;
 }
 
 .icon-tabler-star {
@@ -169,12 +179,6 @@ aside h3 {
 
 .icon-tabler-uncheck {
     fill: white;
-}
-
-.dish-style {
-    position: relative;
-    left: 115px;
-    top: 55px;
 }
 
 figcaption, .rating {
@@ -495,15 +499,17 @@ footer img {
         padding: 35px 15px 20px 15px;
     }
 
-
+    .hover-menu:hover {
+        color: #FFFFFF;
+        background-color: #EB5428;
+    }
+    
     /*Section for recipe*/
-
     #recipe-content {
         display: grid;
         grid-template-columns: repeat(4 , 1fr);
         grid-template-areas: 
         'intro intro intro intro'
-        'details details details details'
         'details details details details'
         'ingredients directions directions directions'
         'inrgedients directions directions directions'
@@ -520,6 +526,11 @@ footer img {
 
     #directions {
         grid-area: directions;
+    }
+
+    #details dl {
+        justify-content: center;
+        text-align: center;
     }
 
 /*Section for side dishes*/
@@ -556,8 +567,8 @@ aside {
 }
 
 .rating {
-    margin-top: 34px;
-    margin-left: 65px;
+    margin-top: 54px;
+    margin-left: 92px;
 }
 
 .dish-style {
@@ -583,34 +594,10 @@ aside figcaption {
     left: 95px;
 }
 
-aside h3 {
-    position: relative;
-    left: 70px;
-    top: 30px;
-}
-
-.icon-tabler-star {
-    fill: #EB5428;
-}
-
-.icon-tabler-uncheck {
-    fill: white;
-}
-
-
-figcaption, .rating {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.rating {
-    font-weight: 700;
-}
 
 /*Section for main navigation*/
 #main-nav {
-    width: 414px;
+    width: 768px;
     height: 125px;
     margin-top: -40px;
     background-color: #FFFFFF;
