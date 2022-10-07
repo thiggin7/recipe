@@ -40,6 +40,7 @@ h3 {
 menu {
     display: flex;
     align-items: center;
+    justify-content: center;
     padding-top: 15px;
     margin-bottom: -60px;
 }
@@ -66,13 +67,13 @@ menu li {
 .icon-tabler-printer {
     position: relative;
     bottom: 20px;
-    right: 38px;
+    right: 40px;
 }
 
 .icon-tabler-file-symlink {
     position: relative;
     bottom: 20px;
-    right: 65px;
+    right: 40px;
 }
 
 .hidden-text {
@@ -477,6 +478,11 @@ footer img {
         padding: 35px 15px 20px 15px;
     }
 
+    .hover-menu:hover {
+        color: #FFFFFF;
+        background-color: #EB5428;
+    }
+
     /*Section for recipe*/
     #recipe-content {
         display: grid;
@@ -716,7 +722,6 @@ footer img {
     /*Section for icons: save, share, print and jump to recipe*/
 
     menu {
-        justify-content: flex-start;
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -725,7 +730,13 @@ footer img {
         border: 2px solid #EB5428;
         width: 60px;
         height: 710px;
+        padding: 35px 15px 20px 15px;
     }
+
+    /*justify-content: space-around;
+position: absolute;
+top: 297px;
+padding: 35px 15px 20px 15px;*/
 
     menu li {
         display: flex;
@@ -736,10 +747,16 @@ footer img {
 
     menu span {
         position: relative;
-        top: 50px;
-        padding-top: 20px;
-
+        bottom: -50px;
+        margin-top: -50px;
     }
+
+
+    .hover-menu:hover {
+        color: #FFFFFF;
+        background-color: #EB5428;
+    }
+    
     /*Section for recipe*/
     .street-tacos {
         width: 40%;
@@ -869,22 +886,7 @@ aside figcaption {
 #main-nav {
     width: 1280px;
     height: 162px;
-}
-
-#main-nav li {
-    width: 115px;
-}
-
-#main-nav a {
-    width: 70px;
-}
-
-.hamburger-icon {
-    display: none;
-}
-
-#main-nav label, #dropdown{
-    visibility: hidden;
+    z-index: 2;
 }
 
 [href="#home"] {
@@ -893,8 +895,6 @@ aside figcaption {
 }
 
 .icon-tabler-tools-kitchen {
-  background-color: #EB5428;
-  position: absolute;
   padding: 31px 13px;
 }
 
@@ -917,37 +917,30 @@ aside figcaption {
 }
 
 .breakfast, .brunch, .lunch, .dinner, .appetizers, .desserts, .beverages {
-    visibility: visible;
-    display: flex;
-    position: relative;
     top: -30px;
     left: 15%;
 }
 
+.icon-tabler-user-circle {
+    top: -10px;
+    left: 130px;
+  }
+
+  .avatar {
+    top: 115px;
+    right: 27px;
+  }
+
 /*Section for search bar*/
 .search-bar {
-    display: flex;
-    position: fixed;
-    top: 25px;
-    right: -255px;
+    position: absolute;
+    top: 175px;
+    right: 0px;
     z-index: 1;
 }
 
-.search-bar input {
-    border: 3px solid #EB5428;
-    padding: 5px;
-    background-color: #FFFFFF;
-    width: 250px;
-}
-
-button {
-    background-color: #EB5428;
-    border-style: none;
-    cursor: pointer;
-}
-
 .icon-tabler-search {
-   stroke: #FFFFFF;
+   top: 0px;
 }
 
 
