@@ -589,26 +589,19 @@ aside figcaption {
     display: none;
 }
 
-label {
-    cursor: pointer;
-    display: inline-block;
-    padding: 1px;
-    position: relative;
-    user-select: none;
-}
-
 #main-nav img {
     width: 60%;
+}
+
+#main-nav img:hover {
+        color: #FFFFFF;
+        background-color: #EB5428;
 }
 
 #main-nav ul {
     list-style: none;
     overflow: visible;
     display: flex;
-}
-
-#main-nav label {
-    visibility: hidden;
 }
 
 [href="#home"] {
@@ -626,11 +619,6 @@ label {
   margin: 10px;
 }
 
-.nav-hover:hover {
-  background-color: #EB5428;
-  color: #FFFFFF;
-}
-
 .breakfast, .brunch, .lunch, .dinner, .appetizers, .desserts, .beverages {
     visibility: visible;
     display: inline-flex;
@@ -644,6 +632,9 @@ label {
     top: 150px;
 }
 
+[href="#breakfast"]:hover {
+    background-color: #000;
+}
 
 /*Section for search bar*/
 .search-bar {
