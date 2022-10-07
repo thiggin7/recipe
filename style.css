@@ -798,12 +798,17 @@ footer img {
     }
 /*Section for side dishes*/
 aside {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: 
-    'st st'
-    'mxrice salsa'
-    'guac tort'
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-areas: 
+    'st st st st st'
+    'mxrice'
+     /*
+     'st st st st st st'
+     'mxrice mxrice mxrice mxrice'
+     'salsa salsa salsa salsa'
+     'guac guac guac guac' 
+     'tort tort tort tort'*/
     ;
 }
 
@@ -862,8 +867,8 @@ aside figcaption {
 
 /*Section for main navigation*/
 #main-nav {
-    width: 768px;
-    height: 255px;
+    width: 1280px;
+    height: 162px;
 }
 
 #main-nav li {
@@ -883,13 +888,14 @@ aside figcaption {
 }
 
 [href="#home"] {
-    left: -70px;
+    left: -90px;
+    top: 72px;
 }
 
 .icon-tabler-tools-kitchen {
   background-color: #EB5428;
   position: absolute;
-  padding: 28px 13px;
+  padding: 31px 13px;
 }
 
 #main-nav img {
@@ -902,7 +908,7 @@ aside figcaption {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 87px;
+    margin-top: -7px;
 }
 
 .nav-text {
