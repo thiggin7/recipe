@@ -712,7 +712,7 @@ footer img {
     }
     
     /*Section for icons: save, share, print and jump to recipe*/
-    
+
     menu {
         justify-content: flex-start;
         display: flex;
@@ -744,15 +744,19 @@ footer img {
         display: grid;
         grid-template-columns: repeat(4 , 1fr);
         grid-template-areas: 
-        'intro intro intro intro'
+        'taco-pic taco-pic intro intro'
+        'taco taco-pic intro intro'
         'details details details details'
         'ingredients directions directions directions'
-        'inrgedients directions directions directions'
         ;
     }
 
-    .recipe-intro {
-        grid-area: intro;
+    menu {
+        grid-area: menu;
+    }
+
+    .street-tacos {
+        grid-area: taco-pic;
     }
 
     #details  {
@@ -763,10 +767,45 @@ footer img {
         grid-area: directions;
     }
 
-    #details dl {
-        justify-content: center;
-        text-align: center;
+    #details {
+        background-color: #000000;
+        color: #7ABFBF;
     }
+
+    /*Grid container for details section*/
+    #details dl {
+        display: grid;
+    }
+
+    #details dt {
+        position: relative;
+        bottom: 20px;
+        left: 10px;
+    }
+
+    #details {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-areas: 
+        'deets deets deets deets deets'
+        'dt dt dt dt dt'
+        'dd dd dd dd dd'
+        ;
+    } 
+
+
+    #details h2 {
+        grid-area: deets;
+    }
+
+    dt {
+        grid-area: dt;
+    }
+
+    dd {
+        grid-area: dd;
+    }
+
 
 /*Section for side dishes*/
 aside {
