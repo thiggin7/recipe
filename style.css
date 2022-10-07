@@ -730,13 +730,7 @@ footer img {
         border: 2px solid #EB5428;
         width: 60px;
         height: 710px;
-        padding: 35px 15px 20px 15px;
     }
-
-    /*justify-content: space-around;
-position: absolute;
-top: 297px;
-padding: 35px 15px 20px 15px;*/
 
     menu li {
         display: flex;
@@ -748,15 +742,30 @@ padding: 35px 15px 20px 15px;*/
     menu span {
         position: relative;
         bottom: -50px;
-        margin-top: -50px;
     }
-
 
     .hover-menu:hover {
         color: #FFFFFF;
         background-color: #EB5428;
     }
-    
+
+    .save {
+        margin-top: -100px;
+    }
+
+    .share {
+        margin-top: -195px;
+    }
+
+    .print {
+        margin-top: -290px;
+    }
+
+    .jump {
+        margin-top: -390px;
+    }
+
+
     /*Section for recipe*/
     .street-tacos {
         width: 40%;
@@ -948,26 +957,21 @@ aside figcaption {
 
 #social nav {
     float: right;
-    margin-top: -35px;
-    margin-right: 25px;
 }
 
-.fb, .youtube, .ig {
+.fb, .youtube, .ig, .tiktok {
     position: relative;
-    right: -50px;
-    top: -1px;
+    right: 70px;
+    padding-left: 50px;
 }
 
 .icon-tabler-brand-facebook,.icon-tabler-brand-instagram,.icon-tabler-brand-youtube, .icon {
     position: relative;
-    bottom: 20px;
-    right: 0px;
+    right: 120px;
 }
 
-.tiktok {
-    position: relative;
-    right: -40px;
-    top: -1px;
+.icon-tabler-brand-tiktok {
+    right: 110px;
 }
 
 /*Section for footer*/
@@ -976,13 +980,13 @@ footer {
 }
 
 footer p {
-    top: 150px;
-    left: -200px;
+    top: -70px;
+    margin-right: 220px;
 }
 footer img {
-    width: 30%;
+    width: 20%;
     top: -150px;
-    left: -200px;
+    margin-left: 210px;
 }
 
 }
