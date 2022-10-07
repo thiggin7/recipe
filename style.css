@@ -132,54 +132,17 @@ li {
 /*Section for side dishes*/
 aside {
     background-color: #7ABFBF;
-    padding-bottom: 35px;
 }
 
 aside h2 {
     padding-top: 5px;
-    margin-bottom: -50px;
     text-align: center;
 }
 
-aside figure {
-    margin-bottom: 15px;
-}
-
 .rating {
-    margin-top: 34px;
-    margin-left: 95px;
-}
-
-.dish-style {
-    position: relative;
-    left: 95px;
-    top: 55px;
-}
-
-aside img {
-    position: absolute;
-    width: 100px;
-    margin-left: -25px;
-}
-
-aside svg {
-    position: relative;
-    top: 30px;
-    left: -60px;
-}
-
-aside figcaption {
-    position: relative;
-    top: 35px;
-    left: 95px;
-}
-
-.icon-tabler-star {
-    fill: #EB5428;
-}
-
-.icon-tabler-uncheck {
-    fill: white;
+    margin-top: -13px;
+    margin-bottom: -10px;
+    padding-left: 135px;
 }
 
 figcaption, .rating {
@@ -190,6 +153,47 @@ figcaption, .rating {
 
 .rating {
     font-weight: 700;
+}
+
+.icon-tabler-star {
+    fill: #EB5428;
+}
+
+.icon-tabler-uncheck {
+    fill: white;
+}
+
+.dish-name {
+    position: relative;
+    left: 135px;
+}
+
+aside figure {
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+
+figure:hover {
+    background-color: #FFAE42;
+}
+
+aside img {
+    position: absolute;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: -50px;
+}
+
+aside svg {
+    position: relative;
+    top: 12px;
+    left: 130px;
+}
+
+aside figcaption {
+    position: relative;
+    bottom: 20px;
+    left: 135px;
 }
 
 /*Section for main navigation*/
@@ -570,11 +574,6 @@ aside figcaption {
     top: 55px;
     left: 95px;
 }
-
-
-/*.style:hover {
-     background-color: #FFAE42;
- }*/
 
 /*Section for main navigation*/
 #main-nav {
