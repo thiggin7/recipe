@@ -547,32 +547,49 @@ aside {
     grid-area: tort;
 }
 
-.rating {
-    margin-top: 54px;
-    margin-left: 92px;
+
+aside h2 {
+    margin-top: 5px;
 }
 
-.dish-style {
+.rating {
+    margin-top: -43px;
+    margin-bottom: -10px;
+    margin-left: 193px;
+    padding-left: 135px;
+}
+
+
+.dish-name {
     position: relative;
-    left: 95px;
-    top: 65px;
+    left: 115px;
+}
+
+aside figure {
+    padding-bottom: 15px;
+}
+
+figure:hover {
+    background-color: #FFAE42;
 }
 
 aside img {
     position: absolute;
     width: 100px;
+    margin-left: 0px;
+    margin-top: -70px;
 }
 
 aside svg {
     position: relative;
-    top: 5px;
-    left: 7px;
+    top: 12px;
+    left: 200px;
 }
 
 aside figcaption {
     position: relative;
-    top: 55px;
-    left: 95px;
+    bottom: 20px;
+    left: 115px;
 }
 
 /*Section for main navigation*/
