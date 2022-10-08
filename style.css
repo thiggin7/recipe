@@ -360,7 +360,7 @@
      #recipe-content {
          display: grid;
          grid-template-columns: repeat(4 , 1fr);
-         grid-template-areas: 'intro intro intro intro' 'details details details details' 'ingredients directions directions directions' 'ingredients directions directions directions' ;
+         grid-template-areas: 'intro intro intro intro' 'ingredients details details details' 'ingredients directions directions directions' 'inrgedients directions directions directions' ;
     }
      .recipe-intro {
          grid-area: intro;
@@ -604,7 +604,8 @@
      #details {
          display: grid;
          grid-template-columns: repeat(5, 1fr);
-         grid-template-areas: 'deets deets deets deets deets' 'dt dt dt dt dt' 'dd dd dd dd dd' ;
+         grid-template-areas: 
+         'deets deets deets deets deets' 'dt dt dt dt dt' 'dd dd dd dd dd' ;
     }
      #details h2 {
          grid-area: deets;
@@ -615,6 +616,7 @@
      dd {
          grid-area: dd;
     }
+    
      #details {
          background-color: #000000;
          color: #7ABFBF;
