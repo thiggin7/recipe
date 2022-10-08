@@ -589,6 +589,28 @@
          margin-right: 40px;
          line-height: 2;
     }
+    #recipe-content {
+        display: grid;
+        grid-template-columns: repeat(4 , 1fr);
+        grid-template-areas: 'intro intro intro intro' 'details details details details' 'ingredients directions directions directions' 'ingredients directions directions directions' ;
+        }
+    .recipe-intro {
+        grid-area: intro;
+        }
+    #details {
+        grid-area: details;
+        }
+    #directions {
+        grid-area: directions;
+        }
+    #details dl {
+        justify-content: center;
+        text-align: center;
+        }
+
+        #ingredients {
+            margin-top: -92px;
+        }
     /*Grid container for details section*/
      #details {
          margin-top: -4px;
