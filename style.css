@@ -233,19 +233,13 @@
  #main-nav input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps) span:after {
      top: 0;
 }
- [href="#home"] {
-     position: absolute;
-     top: 2px;
-     transform: translate(-50%, -50%);
-     cursor: default;
-}
+
  .icon-tabler-tools-kitchen {
      background-color: #EB5428;
      position: absolute;
-     top: 33px;
-     padding: 20px 80px;
-     left: 115px;
-     margin: 10px;
+     top: 30px;
+     padding: 17.5px 60px;
+     left: 120px;
 }
  .avatar {
      position: absolute;
@@ -366,7 +360,7 @@
      #recipe-content {
          display: grid;
          grid-template-columns: repeat(4 , 1fr);
-         grid-template-areas: 'intro intro intro intro' 'details details details details' 'ingredients directions directions directions' 'inrgedients directions directions directions' ;
+         grid-template-areas: 'intro intro intro intro' 'details details details details' 'ingredients directions directions directions' 'ingredients directions directions directions' ;
     }
      .recipe-intro {
          grid-area: intro;
@@ -453,13 +447,13 @@
      #main-nav label, #dropdown{
          visibility: hidden;
     }
-     [href="#home"] {
-         left: -70px;
-    }
+
      .icon-tabler-tools-kitchen {
          background-color: #EB5428;
          position: absolute;
-         padding: 28px 13px;
+         left: 0px;
+         top: 30px;
+         padding: 28px 17px;
     }
      #main-nav img {
          width: 50px;
@@ -684,14 +678,14 @@
          height: 162px;
          z-index: 2;
     }
-     [href="#home"] {
-         left: -90px;
-         top: 72px;
-         padding-left: 57px;
-    }
+
      .icon-tabler-tools-kitchen {
-         padding: 31px 13px;
+        position: relative;
+        top: -2px;
+        left: -138px;
+        padding: 32px 13px;
     }
+
      #main-nav img {
          width: 50px;
     }
