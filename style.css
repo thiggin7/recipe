@@ -613,7 +613,7 @@
         }
     /*Grid container for details section*/
      #details {
-         margin-top: -4px;
+         margin-top: -5px;
     }
      #details dl {
          display: grid;
