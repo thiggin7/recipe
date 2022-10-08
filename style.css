@@ -553,20 +553,27 @@ aside h2 {
 }
 
 .rating {
-    margin-top: -43px;
-    margin-bottom: -10px;
-    margin-left: 193px;
-    padding-left: 135px;
+    position: relative;
+    left: -218px;
+    bottom: 10px;
+    margin-bottom: -70px;
+    padding-left: 328px;
+    padding-right: 0px;
+    padding-bottom: 25px;
 }
 
+.move {
+
+}
 
 .dish-name {
     position: relative;
     left: 115px;
+    bottom: 20px
 }
 
 aside figure {
-    padding-bottom: 15px;
+    padding-bottom: 25px;
 }
 
 figure:hover {
@@ -577,19 +584,19 @@ aside img {
     position: absolute;
     width: 100px;
     margin-left: 0px;
-    margin-top: -70px;
+    margin-top: -80px;
 }
 
 aside svg {
     position: relative;
-    top: 12px;
-    left: 200px;
+    top: 15px;
+    left: 170px;
 }
 
 aside figcaption {
     position: relative;
-    bottom: 20px;
-    left: 115px;
+    bottom: 40px;
+    left: 110px;
 }
 
 /*Section for main navigation*/
