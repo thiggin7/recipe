@@ -562,13 +562,9 @@ aside h2 {
     padding-bottom: 25px;
 }
 
-.move {
-
-}
-
 .dish-name {
     position: relative;
-    left: 115px;
+    left: 110px;
     bottom: 20px
 }
 
@@ -849,18 +845,13 @@ footer img {
         color: #7ABFBF;
     }
 /*Section for side dishes*/
+
 aside {
-   display: grid;
-   grid-template-columns: repeat(4, 1fr);
-   grid-template-areas: 
-    'st st st st st'
-    'mxrice'
-     /*
-     'st st st st st st'
-     'mxrice mxrice mxrice mxrice'
-     'salsa salsa salsa salsa'
-     'guac guac guac guac' 
-     'tort tort tort tort'*/
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+    'st st st st'
+    'mxrice salsa guac tort'
     ;
 }
 
@@ -884,38 +875,54 @@ aside {
     grid-area: tort;
 }
 
-.rating {
-    margin-top: 54px;
-    margin-left: 92px;
+
+aside h2 {
+    margin-top: 5px;
+    margin-bottom: 100px;
 }
 
-.dish-style {
+.rating {
+    position: absolute;
+    left: -318px;
+    bottom: 70px;
+    margin-bottom: -70px;
+    padding-left: 28px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+}
+
+.dish-name {
     position: relative;
-    left: 95px;
-    top: 65px;
+    left: 0px;
+    top: 65px
+}
+
+aside figure {
+    padding-bottom: 65px;
+}
+
+figure:hover {
+    background-color: #FFAE42;
 }
 
 aside img {
     position: absolute;
-    width: 100px;
+    width: 150px;
+    margin-left: 0px;
+    margin-top: -150px;
 }
 
 aside svg {
     position: relative;
-    top: 5px;
-    left: 7px;
+    top: 60px;
+    left: 100px;
 }
 
 aside figcaption {
     position: relative;
-    top: 55px;
-    left: 95px;
+    top: 50px;
+    left: 0px;
 }
-
-
-/*.style:hover {
-     background-color: #FFAE42;
- }*/
 
 /*Section for main navigation*/
 #main-nav {
