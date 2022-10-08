@@ -42,7 +42,7 @@ menu {
     align-items: center;
     justify-content: center;
     padding-top: 15px;
-    margin-bottom: -60px;
+    margin-bottom: -145px;
 }
 
 menu li {
@@ -139,11 +139,6 @@ aside h2 {
     text-align: center;
 }
 
-.rating {
-    margin-top: -13px;
-    margin-bottom: -10px;
-    padding-left: 135px;
-}
 
 figcaption, .rating {
     font-family: 'Montserrat', sans-serif;
@@ -171,6 +166,7 @@ figcaption, .rating {
 aside figure {
     margin: 0 auto;
     padding-bottom: 5px;
+    line-height: 1.5;
 }
 
 figure:hover {
@@ -184,11 +180,6 @@ aside img {
     margin-top: -50px;
 }
 
-aside svg {
-    position: relative;
-    top: 12px;
-    left: 130px;
-}
 
 aside figcaption {
     position: relative;
@@ -239,7 +230,7 @@ aside figcaption {
     position: relative;
     width: 100%;
     top: 10px;
-    left: 70px;
+    left: 22px;
 }
 
 .hamburger-hover:hover {
@@ -327,7 +318,7 @@ label {
   color: #FFFFFF;
 }
 
-#main-nav div {
+#main-nav .no-show {
   margin-top: -50px;
   margin-left: -50px;
 }
@@ -368,10 +359,9 @@ button {
 
 /*Section for Social Media links*/
 
-#social nav {
+#social nav ul {
     display: flex;
-    margin-top: -55px;
-    margin-bottom: -100px;
+    margin-top: -100px;
 }
 
 #social li a {
@@ -385,53 +375,6 @@ button {
     list-style: none;
 }
 
-.fb {
-    position: relative;
-    right: 105px;
-    top: 45px;
-}
-
-.icon-tabler-brand-facebook {
-    position: relative;
-    bottom: 20px;
-    right: 100px;
-}
-
-.ig {
-    position: relative;
-    right: 77px;
-    top: 45px;
-}
-
-.icon-tabler-brand-instagram {
-    position: relative;
-    bottom: 20px;
-    right: 65px;
-}
-
-.youtube {
-    position: relative;
-    right: 50px;
-    top: 45px;
-}
-
-.icon-tabler-brand-youtube {
-    position: relative;
-    bottom: 20px;
-    right: 45px;
-}
-
-.tiktok {
-    position: relative;
-    right: 25px;
-    top: 45px;
-}
-
-.icon-tabler-brand-tiktok {
-    position: relative;
-    bottom: 20px;
-    right: 15px;
-}
 
 /*Section for footer*/
 
@@ -554,22 +497,16 @@ aside h2 {
 
 .rating {
     position: relative;
-    left: -218px;
-    bottom: 10px;
-    margin-bottom: -70px;
+    left: -327px;
+    bottom: -10px;
     padding-left: 328px;
     padding-right: 0px;
-    padding-bottom: 25px;
 }
 
 .dish-name {
     position: relative;
     left: 110px;
     bottom: 20px
-}
-
-aside figure {
-    padding-bottom: 25px;
 }
 
 figure:hover {
@@ -585,8 +522,8 @@ aside img {
 
 aside svg {
     position: relative;
-    top: 15px;
-    left: 170px;
+    top: -12px;
+    left: 75px;
 }
 
 aside figcaption {
@@ -682,9 +619,9 @@ button {
 
 /*Section for Social Media links*/
 
-#social nav {
+#social nav ul {
     float: right;
-    margin-top: -35px;
+    margin-top: -80px;
     margin-right: 25px;
 }
 
@@ -882,14 +819,10 @@ aside h2 {
 }
 
 .rating {
-    position: relative;
-    left: -220px;
-    bottom: -201px;
     margin-left: 100px;
-    margin-bottom: -70px;
     padding-left: 128px;
-    padding-right: 0px;
-    padding-bottom: 180px;
+    top:10px;
+    left: -228px;
 }
 
 .dish-name {
@@ -899,7 +832,7 @@ aside h2 {
 }
 
 aside figure {
-    padding-bottom: 65px;
+    padding-bottom: 185px;
 }
 
 figure:hover {
@@ -911,12 +844,6 @@ aside img {
     width: 284.5px;
     margin-left: 0px;
     margin-top: -150px;
-}
-
-aside svg {
-    position: relative;
-    top: 72px;
-    left: 70px;
 }
 
 aside figcaption {
@@ -935,6 +862,7 @@ aside figcaption {
 [href="#home"] {
     left: -90px;
     top: 72px;
+    padding-left: 57px;
 }
 
 .icon-tabler-tools-kitchen {
@@ -989,7 +917,7 @@ aside figcaption {
 
 /*Section for Social Media links*/
 
-#social nav {
+#social nav ul {
     float: right;
 }
 
